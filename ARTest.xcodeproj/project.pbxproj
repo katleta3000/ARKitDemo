@@ -13,6 +13,7 @@
 		A81580671FCB1F190072E3DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81580651FCB1F190072E3DD /* Main.storyboard */; };
 		A81580691FCB1F190072E3DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81580681FCB1F190072E3DD /* Assets.xcassets */; };
 		A815806C1FCB1F190072E3DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A815806A1FCB1F190072E3DD /* LaunchScreen.storyboard */; };
+		A81580761FCB3AB70072E3DD /* VirtualPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81580751FCB3AB70072E3DD /* VirtualPlane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A81580681FCB1F190072E3DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A815806B1FCB1F190072E3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A815806D1FCB1F190072E3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81580751FCB3AB70072E3DD /* VirtualPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualPlane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A815805F1FCB1F190072E3DD /* AppDelegate.swift */,
 				A81580611FCB1F190072E3DD /* art.scnassets */,
 				A81580631FCB1F190072E3DD /* ViewController.swift */,
+				A81580751FCB3AB70072E3DD /* VirtualPlane.swift */,
 				A81580651FCB1F190072E3DD /* Main.storyboard */,
 				A81580681FCB1F190072E3DD /* Assets.xcassets */,
 				A815806A1FCB1F190072E3DD /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			files = (
 				A81580641FCB1F190072E3DD /* ViewController.swift in Sources */,
 				A81580601FCB1F190072E3DD /* AppDelegate.swift in Sources */,
+				A81580761FCB3AB70072E3DD /* VirtualPlane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

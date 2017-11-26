@@ -12,6 +12,7 @@ import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
     @IBOutlet var sceneView: ARSCNView!
+    var planes = [UUID: VirtualPlane]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,4 +35,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
 
     // MARK: - ARSCNViewDelegate
+    
+    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+        // create a 3d plane from the anchor
+        if let arPlaneAnchor = anchor as? ARPlaneAnchor {
+            let plane = VirtualPlane(anchor: arPlaneAnchor)
+            self.planes[arPlaneAnchor.identifier] = plane
+            node.addChildNode(plane)
+        }
+    }
 }
