@@ -29,6 +29,13 @@ class VirtualPlane: SCNNode {
         updatePlaneMaterialDimensions()
         self.addChildNode(planeNode)
     }
+    
+    func updateWithNewAnchor(_ anchor: ARPlaneAnchor) {
+        self.planeGeometry.width = CGFloat(anchor.extent.x)
+        self.planeGeometry.height = CGFloat(anchor.extent.z)
+        self.position = SCNVector3(anchor.center.x, 0, anchor.center.z)
+        updatePlaneMaterialDimensions()
+    }
 
     private func initializePlaneMaterial() -> SCNMaterial {
         let material = SCNMaterial()
@@ -36,7 +43,7 @@ class VirtualPlane: SCNNode {
         return material
     }
 
-    func updatePlaneMaterialDimensions() {
+    private func updatePlaneMaterialDimensions() {
         let material = self.planeGeometry.materials.first!
 
         let width = Float(self.planeGeometry.width)
