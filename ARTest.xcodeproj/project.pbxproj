@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		A81580601FCB1F190072E3DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A815805F1FCB1F190072E3DD /* AppDelegate.swift */; };
-		A81580621FCB1F190072E3DD /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A81580611FCB1F190072E3DD /* art.scnassets */; };
 		A81580641FCB1F190072E3DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81580631FCB1F190072E3DD /* ViewController.swift */; };
 		A81580671FCB1F190072E3DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81580651FCB1F190072E3DD /* Main.storyboard */; };
 		A81580691FCB1F190072E3DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81580681FCB1F190072E3DD /* Assets.xcassets */; };
 		A815806C1FCB1F190072E3DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A815806A1FCB1F190072E3DD /* LaunchScreen.storyboard */; };
 		A81580761FCB3AB70072E3DD /* VirtualPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81580751FCB3AB70072E3DD /* VirtualPlane.swift */; };
+		A81580781FCB42CE0072E3DD /* spider.dae in Resources */ = {isa = PBXBuildFile; fileRef = A81580771FCB42CE0072E3DD /* spider.dae */; };
+		A815807A1FCB433E0072E3DD /* mug.dae in Resources */ = {isa = PBXBuildFile; fileRef = A81580791FCB433E0072E3DD /* mug.dae */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A815805C1FCB1F190072E3DD /* ARTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A815805F1FCB1F190072E3DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A81580611FCB1F190072E3DD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		A81580631FCB1F190072E3DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A81580661FCB1F190072E3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A81580681FCB1F190072E3DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A815806B1FCB1F190072E3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A815806D1FCB1F190072E3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A81580751FCB3AB70072E3DD /* VirtualPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualPlane.swift; sourceTree = "<group>"; };
+		A81580771FCB42CE0072E3DD /* spider.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = spider.dae; path = "../../../../Downloads/MyFirstARApp-master 2/MyFirstARApp/art.scnassets/spider.dae"; sourceTree = "<group>"; };
+		A81580791FCB433E0072E3DD /* mug.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = mug.dae; path = "../../../../Downloads/ARKitPlacingObjects-master/ARKitPlanesAndObjects/App And Resources/coffeeCup/mug.dae"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A815805F1FCB1F190072E3DD /* AppDelegate.swift */,
-				A81580611FCB1F190072E3DD /* art.scnassets */,
+				A81580791FCB433E0072E3DD /* mug.dae */,
+				A81580771FCB42CE0072E3DD /* spider.dae */,
 				A81580631FCB1F190072E3DD /* ViewController.swift */,
 				A81580751FCB3AB70072E3DD /* VirtualPlane.swift */,
 				A81580651FCB1F190072E3DD /* Main.storyboard */,
@@ -129,10 +132,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A81580621FCB1F190072E3DD /* art.scnassets in Resources */,
+				A815807A1FCB433E0072E3DD /* mug.dae in Resources */,
 				A815806C1FCB1F190072E3DD /* LaunchScreen.storyboard in Resources */,
 				A81580691FCB1F190072E3DD /* Assets.xcassets in Resources */,
 				A81580671FCB1F190072E3DD /* Main.storyboard in Resources */,
+				A81580781FCB42CE0072E3DD /* spider.dae in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
